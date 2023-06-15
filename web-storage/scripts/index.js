@@ -15,4 +15,12 @@ enterBtn.addEventListener('click', () => {
     }
     
     window.location.href = './information.html'
-})
+});
+
+/* alternative way ^^
+
+in the inputs if name = role, and it's value is student or instructor
+
+const role = document.querySelector('input[name=role]:checked').value
+
+*/
